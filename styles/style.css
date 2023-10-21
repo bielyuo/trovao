@@ -40,3 +40,11 @@ nav img{
 footer{
     background-color: var(--cor05);
 }
+/* imagem da página sobre nós */
+.imagem-lateral {
+    background-image: url('../images/block-chain.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center top; 
+    height: 200px; 
+}
