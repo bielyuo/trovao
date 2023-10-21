@@ -58,6 +58,11 @@ section {
     margin: 0 auto;
     padding: 1rem;
 }
+.p-text > p{
+    margin: auto;
+    max-width: 800px;
+    text-align: justify;
+}
 
 footer{
     background-color: var(--cor05);
