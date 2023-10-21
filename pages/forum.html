@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Pessoas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../images/img_logo.png" alt="Imagem da logo do site">
+                <span class="ml-2">Gestão de Pessoas</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./forum.html">Fórum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header>
+            <h1>Fórum de Discussão</h1>
+        </header>
+        <section id="topics">
+            <h2 class="py-2 text-center">Tópicos Recentes</h2>
+            <ul id="topic-list">
+                <!-- Tópicos serão carregados aqui via JavaScript -->
+            </ul>
+        </section>
+
+        <section id="new-topic">
+            <form>                
+                <h2 class="py-2 text-center">Criar Novo Tópico</h2>
+                <div class="mb-3">
+                    <label for="topic-title" class="form-label">Título do Tópico</label>
+                    <input type="text" class="form-control" id="topic-title" placeholder="Título do Tópico" required>
+                </div>
+                <div class="mb-3">
+                    <label for="topic-content" class="form-label">Conteúdo do Tópico</label>
+                    <textarea id="topic-content" class="form-control" placeholder="Conteúdo do Tópico" required></textarea>
+                </div>
+                <button id="add-topic-btn" class="btn btn-primary">Criar Tópico</button>
+            </form>
+        </section>
+        <script src="app.js"></script>
+    </main>
+
+    <!-- VLibras -->
+    <div vw class="enabled position-fixed">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- VLibras end -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Gestão de Pessoas. Todos os direitos reservados.</p>
+    </footer>
+    <!-- Bootstrap JavaScript e dependências do Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
