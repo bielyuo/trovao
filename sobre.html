@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Pessoas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/img_logo.png" alt="Imagem da logo do site">
+                <span class="ml-2">Gestão de Pessoas</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main>
+    <div class="imagem-lateral"></div>
+
+    <div class="container text-center mt-4"> <!-- Adicione a classe "text-center" para centralizar o conteúdo -->
+        <h1>Sobre Nós</h1>
+        <p>
+            Este site foi projetado para criar um ambiente inclusivo, colaborativo e altamente engajado para colaboradores de todas as idades. Nosso objetivo é promover o entendimento mútuo e o desenvolvimento profissional em ambientes de trabalho.
+        </p>
+    
+        <h2>Nossos Recursos Principais</h2>
+        <p>
+            Perfil de Colaboradores: Coletamos informações pessoais, habilidades, experiências e informações de contato dos colaboradores.</li>
+            Fórum de Discussão: Fornecemos um espaço para compartilhar conhecimentos e promover a comunicação entre as gerações.</li>
+            Treinamento Personalizado: Com base nos perfis, recomendamos treinamentos para preencher lacunas de habilidades.</li>
+            Definição de Objetivos e Metas: Permitimos que gestores definam objetivos da organização, e colaboradores possam alinhar seus próprios objetivos a eles.</li>
+    
+        </p>
+    
+        <h2>Nossa Missão</h2>
+        <p>
+            Nossa missão é facilitar a integração geracional, aumentar o engajamento dos colaboradores e promover a inclusão no ambiente de trabalho. Acreditamos que um ambiente de trabalho inclusivo e colaborativo é essencial para o sucesso de qualquer empresa.
+        </p>
+    </div>
+    
+        <img src="images/analysis.webp" class="img-fluid mx-auto" alt="Imagem">
+    
+</main>
+
+    <!-- VLibras -->
+    <div vw class="enabled position-fixed">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div> 
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- VLibras end -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Gestão de Pessoas. Todos os direitos reservados.</p>
+    </footer>
+    <!-- Bootstrap JavaScript e dependências do Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
