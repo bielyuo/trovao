@@ -36,6 +36,15 @@ nav img{
     align-items: center;
     margin: auto;
 }
+
+#main{
+    
+    height: 1000px;
+
+}
+h5, P{
+    text-align: center;
+}
 .header-forum {
     background-color: #333;
     color: #fff;  
