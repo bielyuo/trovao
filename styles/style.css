@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: var(--font02);
 }
 
 :root{
@@ -18,7 +19,9 @@
     --font02: 'Roboto', sans-serif;
     --font03: Arial, Helvetica, sans-serif;
 }
-
+h1{
+    font-family: var(--font01);
+}
 nav img{
     width: 40px;
 }
@@ -32,4 +35,8 @@ nav img{
     justify-content: space-between;
     align-items: center;
     margin: auto;
+}
+
+footer{
+    background-color: var(--cor05);
 }
