@@ -1,2 +1,2 @@
-# trovao
-Repositório da Equipe Trovão
+# Repositório da Equipe Trovão
+Aqui encontrará instruções para uso do site...
